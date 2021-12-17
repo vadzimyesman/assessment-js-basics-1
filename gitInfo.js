@@ -76,7 +76,7 @@ var gitAddCode1 = "git add -a"
 
 //CODE HERE
 var gitCommitDefinition = "Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users."
-var gitCommitCode = "git commit -m "initial commit" "
+var gitCommitCode = 'git commit -m "initial commit" '
 
 
 //////////////////PROBLEM 8////////////////////
