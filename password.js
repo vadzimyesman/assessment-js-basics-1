@@ -10,7 +10,7 @@ console.log("Welcome to password validator tool!")
 
 
 reader.question("Please type in the password you want to validate, make sure it is at least 10 symbols long: ", function(input){
-	let tokens = []
+	//let tokens = []
 	
 	tokens = input;
     if (tokens.length>=10){
