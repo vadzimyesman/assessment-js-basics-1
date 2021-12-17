@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+var gitDefinition = "Version control system. Software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+var gitHubDefinition = "Web-based version-control and collaboration platform for software developers."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+var gitInitDefinition = "Initializes a new Git repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+var gitCloneDefinition = "Creates a copy of an existing Git repository."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+var gitStatusDefinition = "Displays the state of the working directory and the staged snapshot."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,12 @@
 */
 
 //CODE HERE
+var gitAddDefinition = "Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history."
+var gitAddCode = "git add ."
+//'Git add .' stages new files and modifications, without deletions (on the current directory and its subdirectories).
+
+var gitAddCode1 = "git add -a"
+//'Git add -a' stages all changes
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +75,8 @@
 */
 
 //CODE HERE
+var gitCommitDefinition = "Takes the staged snapshot and commits it to the project history. Combined with git add, this defines the basic workflow for all Git users."
+var gitCommitCode = "git commit -m "initial commit" "
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +86,4 @@
 */
 
 //CODE HERE
+var gitPushDefinition = "It lets you move a local branch to another repository, which serves as a convenient way to publish contributions."
